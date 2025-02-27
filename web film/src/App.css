@@ -1,0 +1,167 @@
+/* /*
+html {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.backcolor{
+    background-color: rgba(214, 214, 214, 0.97);
+}
+
+
+.ContainerMovieCollection{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.search{
+    height: 30px;
+    width: 1120px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.buttonSearch{
+    background-color:rgba(162, 212, 205, 0.53);
+    margin-left: 10px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.DivGambar{
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: white;
+    margin-right: 941px;
+    padding-bottom: 70px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.DivGambar:hover{
+    /* background-color:rgb(179, 179, 179);
+    transform: scale(1.05);
+}
+
+
+.TheText{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Text2{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+.number{
+    margin-right: 10px;
+    background-color: rgb(231, 230, 230);
+    border-radius: 5px;
+}
+
+.Cast{
+    font-size: 15px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+ 
+
+
+ */
+
+
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(67, 227, 198);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: brightness(0.8);
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 1100px;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #00ffe5;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f00c0c;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #007bff
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.movie-card:hover{
+  background-color:  #cd1111;
+}
+
+
+
+
+.movie-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
