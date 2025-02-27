@@ -93,7 +93,7 @@ html {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: rgb(67, 227, 198);
+  background-color: rgb(67, 208, 227);
 }
 
 .logo {
@@ -117,7 +117,7 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-  border-color: #00ffe5;
+  border-color: #00e5ff;
   outline: none;
 }
 
@@ -125,7 +125,7 @@ button {
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
-  background-color: #f00c0c;
+  background-color: #f0100c;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;
